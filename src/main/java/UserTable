@@ -1,0 +1,12 @@
+CREATE TABLE user (
+	user_no	int	primary key AUTO_INCREMENT,
+	user_type	varchar(20)	NOT NULL,
+	user_id	varchar(30)	NOT NULL,
+	user_pw	varchar(30)	NOT NULL,
+	user_phone	varchar(20)	NOT NULL,
+	user_area	varchar(20)	NOT NULL,
+	user_email	varchar(50)	NOT NULL,
+	user_jobassign	varchar(20)	NOT NULL
+);
+
+ALTER TABLE user AUTO_INCREMENT = 101;
